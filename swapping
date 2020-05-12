@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int p,q;
+  printf("Enter the first number: \n");
+  scanf("%d",&p);
+  printf("Enter the second number: \n');
+  scanf("%d"),&q);
+  //swapping p and q
+  p=p+q;
+  q=p-q;//now q has the value of p
+  p=p-q;//now p has the value of q
+  //printing the numbers after swapping
+  printf("First number=%d \nSecond number=%d",p,q);
+  return 0;
+}
