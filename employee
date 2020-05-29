@@ -1,0 +1,31 @@
+#include <stdio.h>
+ 
+//declaring a structure
+struct employee{
+char name[30];
+int num;
+char dep[30];
+float salary;
+};
+ 
+int main()
+{
+   
+    struct employee emp;
+    printf("Enter details\n");
+    printf("Sr.no.\tName\tDepartment\tSalary\n");
+    
+    
+    scanf("%d",&emp.num);
+    
+    gets(emp.name);
+    gets(emp.dep);
+    scanf("%f",&emp.salary);
+    
+    printf("Entered details is"\n);
+    printf("Sr.no %d",emp.num);
+    printf("Name: %s",emp.name);
+    printf("Department: %s",emp.dep);
+    printf("Salary: %f\n",emp.salary);
+    return 0;
+}
